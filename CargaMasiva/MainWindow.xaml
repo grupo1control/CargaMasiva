@@ -1,0 +1,18 @@
+﻿<Window x:Class="CargaMasiva.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CargaMasiva"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Abrir" Content="Abrir" HorizontalAlignment="Left" Margin="565,72,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="0.68,-3.685"/>
+        <TextBox x:Name="FileNameTextBox" HorizontalAlignment="Left" Height="23" Margin="93,72,0,0" TextWrapping="Wrap" Text="Ruta" VerticalAlignment="Top" Width="432"/>
+        <Button x:Name="Cargar" Content="Cargar" HorizontalAlignment="Left" Height="23" Margin="94,114,0,0" VerticalAlignment="Top" Width="83" Click="Cargar_Click"/>
+        <TextBlock x:Name="TxtBlk" HorizontalAlignment="Left" Margin="94,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="139" Width="402"/>
+        <RadioButton x:Name="rbEmpresa" Content="EMPRESA" HorizontalAlignment="Left" Margin="94,42,0,0" VerticalAlignment="Top" Checked="rbEmpresa_Checked" IsChecked="True"/>
+        <RadioButton x:Name="rbPersona" Content="PERSONA" HorizontalAlignment="Left" Margin="183,42,0,0" VerticalAlignment="Top" Checked="rbPersona_Checked"/>
+
+    </Grid>
+</Window>
